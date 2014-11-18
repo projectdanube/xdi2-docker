@@ -31,15 +31,15 @@ To build a Docker image for xdi2-selfhosted
 
 ### How to run
 
-To run the Docker image for the xdi2-transport-http-war in a new container
+To run the Docker image for xdi2-transport-http-war in a new container
 
 	docker run -d -p 8080:8080 projectdanube/xdi2-transport-http-war:latest
 
-To run the Docker image for the xdi2-webtools in a new container
+To run the Docker image for xdi2-webtools in a new container
 
 	docker run -d -p 8080:8080 projectdanube/xdi2-webtools:latest
 
-To run the Docker image for the xdi2-selfhosted in a new container
+To run the Docker image for xdi2-selfhosted in a new container
 
 	docker run -d -p 8080:8080 projectdanube/xdi2-selfhosted:latest
 
