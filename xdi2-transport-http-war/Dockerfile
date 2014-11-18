@@ -14,7 +14,7 @@ rm /tmp/tomcat7.tar.gz)
 
 ADD ./run.sh /usr/local/bin/run
 RUN rm -rf /opt/tomcat/webapps/*
-RUN cp /opt/xdi2/webtools/target/*.war /opt/tomcat/webapps/ROOT.war
+RUN cp /opt/xdi2/transport-http-war/target/*.war /opt/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
