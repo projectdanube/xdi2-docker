@@ -5,7 +5,7 @@ Dockerfiles for the [XDI2](http://github.com/projectdanube/xdi2) server.
 
 ### How to build
 
-To build a base Docker for the latest XDI2 code
+To build a base Docker image for the latest XDI2 code
 
 	cd xdi2
     docker build -t projectdanube/xdi2:latest .
